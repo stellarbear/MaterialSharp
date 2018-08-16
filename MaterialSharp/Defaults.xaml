@@ -1,0 +1,61 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MaterialSharp"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+      xmlns:controls="clr-namespace:MaterialSharp.Controls"
+      xmlns:converters="clr-namespace:MaterialSharp.Converters">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/TextBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/BadgedTextBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Button.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Expander.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/CheckBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/RadioButton.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ToggleButton.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Menu.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/MenuItem.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ContextMenu.xaml" />
+        
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/DataGrid.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ProgressBar.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ListBox.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Tooltip.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Slider.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/TreeView.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Window.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ButtonTemplates.xaml" />
+
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <Style TargetType="{x:Type Window}" BasedOn="{StaticResource MWindow}"/>
+
+    <Style TargetType="{x:Type Button}" BasedOn="{StaticResource MFlatButton}"/>
+
+    <Style TargetType="{x:Type CheckBox}" BasedOn="{StaticResource MCheckBox}"/>
+    <Style TargetType="{x:Type RadioButton}" BasedOn="{StaticResource MRadioButton}"/>
+    <Style TargetType="{x:Type ToggleButton}" BasedOn="{StaticResource MToggleButton}"/>
+
+    <Style TargetType="{x:Type Expander}" BasedOn="{StaticResource MExpander}"/>
+    <Style TargetType="{x:Type ListBox}" BasedOn="{StaticResource MListBox}"/>
+
+    <Style TargetType="{x:Type Menu}" BasedOn="{StaticResource MMenu}"/>
+    <Style TargetType="{x:Type ContextMenu}" BasedOn="{StaticResource MContextMenu}"/>
+    <Style TargetType="{x:Type MenuItem}" BasedOn="{StaticResource MMenuItem}"/>
+
+    <Style TargetType="{x:Type ProgressBar}" BasedOn="{StaticResource MProgressBar}"/>
+    <Style TargetType="{x:Type TreeView}" BasedOn="{StaticResource MTreeView}"/>
+
+    <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource MTextBox}"/>
+    <Style TargetType="{x:Type Slider}" BasedOn="{StaticResource MSlider}"/>
+
+    <Style TargetType="{x:Type DataGrid}" BasedOn="{StaticResource MDataGrid}"/>
+</ResourceDictionary>

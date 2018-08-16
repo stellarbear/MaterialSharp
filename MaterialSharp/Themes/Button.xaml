@@ -1,0 +1,79 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="MFlatButton" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="{DynamicResource FlatButtonBackground}"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Foreground" Value="{DynamicResource FlatButtonForeground}"/>
+        <Setter Property="TextBlock.FontWeight" Value="Medium"/>
+        <Setter Property="TextBlock.FontSize" Value="14"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="8"/>
+        <Setter Property="Height" Value="Auto" />
+        <Setter Property="Width" Value="Auto" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Border x:Name="SelectedBorder" IsHitTestVisible="False" Opacity="0" Background="{DynamicResource FlatButtonMouseOverColor}"/>
+                        <Border Name="ButtonGrid" Background="{TemplateBinding Background}" Focusable="False" 
+                                Padding="5">
+                            <ContentPresenter Name="ButtonContent" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Opacity" Value="{DynamicResource DisabledOpacity}"/>
+                        </Trigger>
+                        <!--Animation here-->
+                        <EventTrigger RoutedEvent="Button.MouseEnter">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="SelectedBorder"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         To="0.3" Duration="0:0:0.2"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Button.MouseLeave">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="SelectedBorder"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         To="0" Duration="0:0:0.2"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MRaisedButton" TargetType="{x:Type Button}"  BasedOn="{StaticResource MFlatButton}">
+        <Setter Property="Background" Value="{DynamicResource RaisedButtonBackground}"/>
+        <Setter Property="Foreground" Value="{DynamicResource RaisedButtonForeground}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Border Padding="12" Name="ButtonBorder" BorderBrush="Transparent" Background="{TemplateBinding Background}" >
+                            <ContentPresenter Name="ButtonContent" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.56"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+</ResourceDictionary>

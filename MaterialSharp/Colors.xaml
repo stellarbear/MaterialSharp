@@ -1,0 +1,140 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MaterialSharp.Themes"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <!--Main styling-->
+    <Color x:Key="MainColorDark">#0D47A1</Color>
+    <Color x:Key="MainColorMedium">#0277BD</Color>
+    <Color x:Key="MainColorLight">#90CAF9</Color>
+    <Color x:Key="AlternativeColor">#90CAF9</Color>
+    <system:Double x:Key="DisabledOpacity">0.16</system:Double>
+
+    <!--Font-->
+    <FontFamily x:Key="MainFont">Segoe UI</FontFamily>
+
+    <!--Grid-->
+    <Color x:Key="GridMouseOverColor">#400D47A1</Color>
+
+    <!--Thumb-->
+    <SolidColorBrush po:Freeze="True"  x:Key="ThresholdNone" Color="{DynamicResource MainColorMedium}" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ThresholdLow" Color="{DynamicResource MainColorMedium}" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ThresholdMedium" Color="DarkOrange" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ThresholdHigh" Color="Red" />
+
+    <!--Thumb-->
+    <SolidColorBrush po:Freeze="True"  x:Key="ThumbColor" Color="Transparent" />
+
+    <!--Logo text-->
+    <SolidColorBrush po:Freeze="True"  x:Key="LogoForeground" Color="LightGray" />
+
+    <!--Icon-->
+    <SolidColorBrush po:Freeze="True"  x:Key="IconColor" Color="{DynamicResource MainColorMedium}" />
+    <SolidColorBrush po:Freeze="True"  x:Key="WindowIconColor" Color="#CCCCCC" />
+    <system:Double x:Key="IconScale">1</system:Double>
+    <Thickness x:Key="IconPadding" Left="10" Top="10" Right="10" Bottom="10" />
+
+    <!--TreeView-->
+    <SolidColorBrush po:Freeze="True"  x:Key="TreeViewBackground" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TreeViewForeground" Color="{DynamicResource MainColorDark}" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TreeViewMouseOverColor" Color="#22CFD8DC" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TreeViewSelectedBackground" Color="#2290A4AE" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TreeViewSelectedForeground" Color="Black" />
+
+    <!--Tooltip-->
+    <SolidColorBrush po:Freeze="True"  x:Key="TooltipForeground" Color="White" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TooltipBackground" Color="#88000000" />
+
+    <!--TextBox-->
+    <SolidColorBrush po:Freeze="True"  x:Key="TextBoxForeground" Color="Black" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TextBoxBorderBrush" Color="LightGray" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TextBoxCaretBrush" Color="LightGray" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TextBoxBackground" Color="Transparent" />
+
+    <!--TextBoxBadged-->
+    <Color x:Key="TextBoxBadgedMainColor" >#0277BD</Color>
+    <Color x:Key="TextBoxBadgedAlternativeColor" >#ED1C24</Color>
+    <SolidColorBrush po:Freeze="True"  x:Key="TextBoxBadgedBorderBrush" Color="LightGray" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TextBoxBadgedForeground" Color="Black" />
+    <SolidColorBrush po:Freeze="True"  x:Key="TextBoxBadgedBackground" Color="Transparent"/>
+
+    <!--Slider-->
+    <SolidColorBrush po:Freeze="True"  x:Key="SliderBorderBrush" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="SliderForeground" Color="CornflowerBlue" />
+    <SolidColorBrush po:Freeze="True"  x:Key="SliderLineColor" Color="Black" />
+
+    <!--ProgressBar-->
+    <SolidColorBrush po:Freeze="True"  x:Key="ProgressBarBorderBrush" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ProgressBarForeground" Color="#4462a1df" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ProgressBarIndicatorForeground" Color="#1162a1df" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ProgressBarBackground" Color="Transparent"/>
+
+    <!--CircularProgressBar-->
+    <SolidColorBrush po:Freeze="True"  x:Key="CircularProgressBarBorderBrush" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="CircularProgressBarForeground" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="CircularProgressBarBackground" Color="Transparent"/>
+
+    <!--DataGrid-->
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridThumbBackground" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridBackground" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridForeground" Color="Black" />
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridBorderBrush" Color="LightGray" />
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridMouseOverColor" Color="#22CFD8DC" />
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridSelectedBackground" Color="#5590A4AE" />
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridSelectedForeground" Color="Black" />
+    <SolidColorBrush po:Freeze="True"  x:Key="DataGridHeaderMouseOverForegroundColor" Color="LightGray" />
+
+    <!--ListBox-->
+    <SolidColorBrush po:Freeze="True"  x:Key="ListBoxBackground" Color="Transparent" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ListBoxForeground" Color="Black" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ListBoxMouseOverColor" Color="#FFCFD8DC" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ListBoxSelectedBackground" Color="{StaticResource MainColorLight}" />
+    <SolidColorBrush po:Freeze="True"  x:Key="ListBoxSelectedForeground" Color="White" />
+
+    <!--Separator-->
+    <SolidColorBrush po:Freeze="True"  x:Key="SeparatorBackground" Color="{DynamicResource MainColorMedium}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="SeparatorBorderBrush" Color="LightGray"/>
+
+    <!--Expander-->
+    <SolidColorBrush po:Freeze="True"  x:Key="ExpanderToggleColor" Color="{DynamicResource MainColorMedium}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="ExpanderBackground" Color="#FFFFFF"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="ExpanderForeground" Color="{DynamicResource MainColorMedium}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="ExpanderContentColor" Color="#FAFAFA"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="ExpanderHeaderColor" Color="#FFFFFF"/>
+
+    <!--ToggleButton-->
+    <SolidColorBrush po:Freeze="True"  x:Key="ToggleButtonForeground" Color="{DynamicResource MainColorDark}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="ToggleButtonBackground" Color="{DynamicResource MainColorMedium}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="ToggleButtonEllipseColor" Color="{DynamicResource MainColorMedium}"/>
+
+    <!--RadioButton-->
+    <SolidColorBrush po:Freeze="True"  x:Key="RadioButtonForeground" Color="{DynamicResource MainColorDark}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="RadioButtonBackground" Color="{DynamicResource MainColorMedium}"/>
+
+    <!--CheckBox-->
+    <SolidColorBrush po:Freeze="True"  x:Key="CheckBoxForeground" Color="{DynamicResource MainColorDark}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="CheckBoxBackground" Color="{DynamicResource MainColorMedium}"/>
+
+    <!--FlatButton-->
+    <SolidColorBrush po:Freeze="True"  x:Key="FlatButtonForeground" Color="{DynamicResource MainColorMedium}"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="FlatButtonBackground" Color="Transparent"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="FlatButtonMouseOverColor" Color="#CFD8DC"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="FlatButtonSelectedBackground" Color="#90A4AE" />
+
+    <!--RaisedButton-->
+    <SolidColorBrush po:Freeze="True"  x:Key="RaisedButtonForeground" Color="White"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="RaisedButtonBackground" Color="{DynamicResource MainColorMedium}"/>
+    <Color x:Key="RaisedButtonMouseEnter">RoyalBlue</Color>
+    <Color x:Key="RaisedButtonMouseLeave">#0277BD</Color>
+
+    <!--Menu & ContextMenu-->
+    <system:Double x:Key="ContextMenuDirection">315</system:Double>
+    <system:Double x:Key="ContextMenuShadowDepth">1</system:Double>
+    <system:Double x:Key="ContextMenuShadowBlurRadius">10</system:Double>
+    <Thickness x:Key="ContextMenuShadowBorderThickness" Left="1" Top="1" Right="1" Bottom="1" />
+    <Color x:Key="ContextMenuShadowColor">#DADADA</Color>
+    <SolidColorBrush po:Freeze="True"  x:Key="MenuForeground" Color="#3F3F3F"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="MenuBackground" Color="#FAFAFA"/>
+    <SolidColorBrush po:Freeze="True"  x:Key="MenuMouseOverColor" Color="#DADADA"/>
+</ResourceDictionary>
