@@ -14,6 +14,7 @@
     <tags>material design wpf materialdesign csharp net</tags>
   </metadata>
   <files>
-    <file src="Release\**" target="build/net" />
+    <file src="Release\**\MaterialSharp.dll" target="build/net" />
+    <file src="Release\**\MaterialSharp.props" target="build/net" />
 </files>
 </package>
