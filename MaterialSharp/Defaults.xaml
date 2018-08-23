@@ -1,6 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:MaterialSharp"
                     xmlns:system="clr-namespace:System;assembly=mscorlib"
       xmlns:controls="clr-namespace:MaterialSharp.Controls"
       xmlns:converters="clr-namespace:MaterialSharp.Converters">

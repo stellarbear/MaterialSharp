@@ -91,7 +91,7 @@
     <SolidColorBrush po:Freeze="True"  x:Key="ListBoxMouseOverColor" Color="#FFCFD8DC" />
     <SolidColorBrush po:Freeze="True"  x:Key="ListBoxSelectedBackground" Color="{StaticResource MainColorLight}" />
     <SolidColorBrush po:Freeze="True"  x:Key="ListBoxSelectedForeground" Color="White" />
-
+    
     <!--Separator-->
     <SolidColorBrush po:Freeze="True"  x:Key="SeparatorBackground" Color="{DynamicResource MainColorMedium}"/>
     <SolidColorBrush po:Freeze="True"  x:Key="SeparatorBorderBrush" Color="LightGray"/>
