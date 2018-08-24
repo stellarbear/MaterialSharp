@@ -1,5 +1,5 @@
 # MaterialSharp
-Custom wpf styling that looks a bit like material. Readme will be filled with examples soon, right now investigate source code.
+Custom wpf styling that looks a bit like material. Nuget package is [available](https://www.nuget.org/packages/MaterialSharp/). Readme will be filled with examples soon, right now investigate source code.
 
 # Super quick start
 Append this to your App.xaml
