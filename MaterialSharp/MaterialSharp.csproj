@@ -93,6 +93,7 @@
     <Compile Include="Converters\BoolTo.cs" />
     <Compile Include="Converters\LevelTo.cs" />
     <Compile Include="Converters\MultipleMath.cs" />
+    <Compile Include="MaterialSharp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
