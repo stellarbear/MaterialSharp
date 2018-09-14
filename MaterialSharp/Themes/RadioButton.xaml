@@ -13,8 +13,8 @@
     
     <Style x:Key="MRadioButton" TargetType="{x:Type RadioButton}">
         <Setter Property="FocusVisualStyle" Value="{StaticResource RadioButtonFocusVisual}"/>
-        <Setter Property="Background" Value="{StaticResource RadioButtonBackground}"/>
-        <Setter Property="Foreground" Value="{StaticResource RadioButtonForeground}"/>
+        <Setter Property="Background" Value="{DynamicResource RadioButtonBackground}"/>
+        <Setter Property="Foreground" Value="{DynamicResource RadioButtonForeground}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type RadioButton}">

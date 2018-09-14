@@ -15,7 +15,7 @@
         <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Menu.xaml" />
         <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/MenuItem.xaml" />
         <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ContextMenu.xaml" />
-        
+
         <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/DataGrid.xaml" />
 
         <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ProgressBar.xaml" />
@@ -29,8 +29,6 @@
         <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/TreeView.xaml" />
 
         <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/Window.xaml" />
-
-        <ResourceDictionary Source="pack://application:,,,/MaterialSharp;component/Themes/ButtonTemplates.xaml" />
 
     </ResourceDictionary.MergedDictionaries>
 

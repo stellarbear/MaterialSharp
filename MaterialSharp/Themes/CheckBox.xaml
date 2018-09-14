@@ -14,8 +14,8 @@
     <Style x:Key="MCheckBox" TargetType="{x:Type CheckBox}">
         <Setter Property="FocusVisualStyle" Value="{StaticResource CheckBoxFocusVisual}"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
-        <Setter Property="Background" Value="{StaticResource CheckBoxBackground}"/>
-        <Setter Property="Foreground" Value="{StaticResource CheckBoxForeground}"/>
+        <Setter Property="Background" Value="{DynamicResource CheckBoxBackground}"/>
+        <Setter Property="Foreground" Value="{DynamicResource CheckBoxForeground}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type CheckBox}">
