@@ -80,6 +80,9 @@
                         </Border>
                     </Grid>
                     <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Opacity" Value="{DynamicResource DisabledOpacity}"/>
+                        </Trigger>
                         <Trigger Property="Icon" Value="{x:Null}">
                             <Setter TargetName="IconWrapper" Property="Visibility" Value="Collapsed" />
                         </Trigger>
